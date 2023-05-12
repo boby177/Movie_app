@@ -25,7 +25,7 @@ function App() {
         }&genre=${filterGenre.toString()}&search=${search}`;
         const { data } = await axios.get(url);
         setObj(data);
-        console.log(data);
+        // console.log(data);
       } catch (error) {
         console.log(error);
       }
@@ -38,7 +38,7 @@ function App() {
     <div className="wrapper">
       <div className="container">
         <div className="head">
-          <img src="./images/logo.png" alt="logo" className="logo" />
+          <img src="./images/movie_app.png" alt="logo" className="logo" />
           <Search setSearch={(search) => setSearch(search)} />
         </div>
         <div className="body">

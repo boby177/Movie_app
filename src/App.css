@@ -19,8 +19,8 @@
 .head {
   display: flex;
   align-content: center;
-  height: 80px;
-  background-color: black;
+  height: 100px;
+  background-color: rgb(111, 24, 24);
   justify-content: space-between;
 }
 
@@ -30,9 +30,9 @@
 }
 
 .logo {
-  width: 100px;
+  width: 500px;
   object-fit: contain;
-  margin-left: 15px;
+  /* margin-left: 5px; */
 }
 
 .table_container {
