@@ -22,9 +22,8 @@ const Genre = ({ genres, filterGenre, setFilterGenre }) => {
               type="checkbox"
               value={genre}
               onChange={onChange}
-            >
+            />
               <p className={styles.genre_label}>{genre}</p>
-            </input>
           </div>
         ))}
       </div>
